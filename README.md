@@ -21,7 +21,7 @@ Below are the specific firewall rules configured on each interface:
 
 ### **WAN Interface Rules**
 1. **Allow TCP from Trusted Source**:
-   - **Source**: 192.168.xxx.xxx (trusted IP)
+   - **Source**: 192.168.x.x (trusted IP)
    - **Protocol**: TCP
    - **Purpose**: Allows specific inbound TCP traffic from a trusted external IP.
 2. **Default Block Rule**:
